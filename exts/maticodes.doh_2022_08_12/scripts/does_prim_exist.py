@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: Apache-2.0
+
 from pxr import Usd, UsdGeom
 import omni.usd
 

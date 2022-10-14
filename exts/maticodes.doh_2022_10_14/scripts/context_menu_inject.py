@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: Apache-2.0
+
 import omni.kit.context_menu
 
 def show_menu(objects):

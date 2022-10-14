@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: Apache-2.0
 # https://docs.omniverse.nvidia.com/py/kit/source/extensions/omni.timeline/docs/index.html
 
 import omni.timeline

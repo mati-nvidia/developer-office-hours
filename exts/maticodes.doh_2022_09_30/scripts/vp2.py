@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: Apache-2.0
 
 # DON'T DO THIS ANYMORE
 import omni.kit.viewport_legacy

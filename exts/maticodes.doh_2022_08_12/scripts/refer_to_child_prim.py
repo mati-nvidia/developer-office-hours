@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: Apache-2.0
 # https://docs.omniverse.nvidia.com/prod_usd/prod_usd/quick-start/hierarchy.html
 
 import omni.usd

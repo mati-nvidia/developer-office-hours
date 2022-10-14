@@ -1,4 +1,4 @@
-import asyncio
+# SPDX-License-Identifier: Apache-2.0
 
 import carb
 import omni.ext
@@ -15,8 +15,6 @@ class MyWindow(ui.Window):
             print("Hello")
         ui.Button("Click Me", clicked_fn=hello)
 
-
-        
 
 class MyExtension(omni.ext.IExt):
     def on_startup(self, ext_id):

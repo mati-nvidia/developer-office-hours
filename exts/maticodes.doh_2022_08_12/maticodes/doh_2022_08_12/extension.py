@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: Apache-2.0
+
 import carb
 import omni.ext
 from omni.kit.viewport.utility import get_active_viewport_window

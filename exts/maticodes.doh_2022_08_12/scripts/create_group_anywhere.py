@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: Apache-2.0
+
 from pxr import Sdf
 import omni.kit.commands
 import omni.usd

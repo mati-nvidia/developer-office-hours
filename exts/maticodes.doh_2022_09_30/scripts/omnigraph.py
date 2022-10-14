@@ -8,6 +8,8 @@ controller: og.Controller = og.Controller()
 keys = og.Controller.Keys
 
 # Create an Action Graph
+# SPDX-License-Identifier: Apache-2.0
+
 graph = controller.create_graph({
     "graph_path": "/World/CameraAim",
     "evaluator_name": "execution" # This makes it Action Graph

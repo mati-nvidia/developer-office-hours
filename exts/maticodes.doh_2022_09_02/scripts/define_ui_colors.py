@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: Apache-2.0
+
 import omni.ui as ui
 from omni.ui import color as cl
 

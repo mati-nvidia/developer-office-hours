@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: Apache-2.0
+
 import omni.ext
 import omni.ui as ui
 from omni.kit.widget.searchable_combobox import build_searchable_combo_widget

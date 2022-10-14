@@ -7,7 +7,5 @@ This repository contains the sample extensions and scripts that I cover during t
 For every livestream date, there is a Kit extension that I worked from in `exts/maticodes.doh_YYYY_MM_DD`. If you go into one of those extension directories, you'll see a README with the questions answered on that date. You'll find code that I showed in the extension code itself and/or in the `scripts/` directory for that extension.
 
 
-
-
 ## Contributing
 The source code for this repository is provided as-is and we are not accepting outside contributions.

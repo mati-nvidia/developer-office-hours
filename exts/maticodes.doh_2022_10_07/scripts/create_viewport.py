@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: Apache-2.0
+
 import carb
 import omni.kit.viewport.utility as vp_utils
 from omni.kit.widget.viewport.api import ViewportAPI

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: Apache-2.0
 # https://docs.omniverse.nvidia.com/py/kit/source/extensions/omni.kit.notification_manager/docs/index.html?highlight=omni%20kit%20notification_manager#
 import carb
 
