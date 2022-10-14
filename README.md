@@ -1,52 +1,13 @@
-# Extension Project Template
+# NVIDIA Omniverse Developer Office Hour
 
-This project was automatically generated.
-
-- `app` - It is a folder link to the location of your *Omniverse Kit* based app.
-- `exts` - It is a folder where you can add new extensions. It was automatically added to extension search path. (Extension Manager -> Gear Icon -> Extension Search Path).
-
-Open this folder using Visual Studio Code. It will suggest you to install few extensions that will make python experience better.
-
-Look for "maticodes.doh_2022_07_22" extension in extension manager and enable it. Try applying changes to any python files, it will hot-reload and you can observe results immediately.
-
-Alternatively, you can launch your app from console with this folder added to search path and your extension enabled, e.g.:
-
-```
-> app\omni.code.bat --ext-folder exts --enable company.hello.world
-```
-
-# App Link Setup
-
-If `app` folder link doesn't exist or broken it can be created again. For better developer experience it is recommended to create a folder link named `app` to the *Omniverse Kit* app installed from *Omniverse Launcher*. Convenience script to use is included.
-
-Run:
-
-```
-> link_app.bat
-```
-
-If successful you should see `app` folder link in the root of this repo.
-
-If multiple Omniverse apps is installed script will select recommended one. Or you can explicitly pass an app:
-
-```
-> link_app.bat --app create
-```
-
-You can also just pass a path to create link to:
-
-```
-> link_app.bat --path "C:/Users/bob/AppData/Local/ov/pkg/create-2021.3.4"
-```
+This repository contains the sample extensions and scripts that I cover during the weekly Developer Office Hour livestreams. The livestreams take place every Friday at 10am (EST). Have a look at the [NVIDIA Omniverse Community Calendar](https://www.addevent.com/calendar/ae483892) to see when the next one will be. From AddEvent, you can add the events to your own calendar. The livestream recordings are also archived and with timestamped chapters for each question on the [NVIDIA Omniverse YouTube channel](https://www.youtube.com/playlist?list=PL3jK4xNnlCVe61X_m5qcizysvP7HphjyU) and [NVIDIA On-Demand](https://www.nvidia.com/en-us/on-demand/search/?facet.mimetype[]=event%20session&layout=list&page=1&q=developer%20office%20hour&sort=date&sortDir=desc).
 
 
-# Sharing Your Extensions
+## How to navigate this repository
+For every livestream date, there is a Kit extension that I worked from in `exts/maticodes.doh_YYYY_MM_DD`. If you go into one of those extension directories, you'll see a README with the questions answered on that date. You'll find code that I showed in the extension code itself and/or in the `scripts/` directory for that extension.
 
-This folder is ready to be pushed to any git repository. Once pushed direct link to a git repository can be added to *Omniverse Kit* extension search paths.
 
-Link might look like this: `git://github.com/[user]/[your_repo].git?branch=main&dir=exts`
 
-Notice `exts` is repo subfolder with extensions. More information can be found in "Git URL as Extension Search Paths" section of developers manual.
 
-To add a link to your *Omniverse Kit* based app go into: Extension Manager -> Gear Icon -> Extension Search Path
-
+## Contributing
+The source code for this repository is provided as-is and we are not accepting outside contributions.
