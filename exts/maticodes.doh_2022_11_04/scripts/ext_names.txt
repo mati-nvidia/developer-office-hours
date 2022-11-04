@@ -1,0 +1,15 @@
+Extension Naming Recommendations
+
+- my_name.my_pkg.etc
+- my_name should be unique to you or your org
+- my_name should not be omni
+
+funkyboy.asset
+maticodes.asset
+NOT stephen.asset
+
+My Recommendations:
+- Follow PEP 423
+    - try short names, but if you need compound names then use underscore
+      - maticodes.my_asset
+    - all lower case
