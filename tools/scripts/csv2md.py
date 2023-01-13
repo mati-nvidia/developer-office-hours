@@ -18,7 +18,8 @@ if __name__ == "__main__":
     with open(csvfile) as f:
         with open(mdfile, "w") as out:
             for row in csv.reader(f):
-                out.write(f"* [{row[1]}]({row[2]})\n")
+                if row[2] and not row[5]:
+                    out.write(f"1. [{row[1]}]({row[2]})\n")
             
     
 
