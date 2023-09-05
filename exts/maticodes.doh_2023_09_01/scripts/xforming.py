@@ -10,6 +10,6 @@ cube_xformable = UsdGeom.Xformable(cube)
 transform = cube_xformable.GetLocalTransformation()
 print(transform)
 transform2 = cube_xformable.GetLocalTransformation()
-print(transform)
+print(transform2)
 
 
